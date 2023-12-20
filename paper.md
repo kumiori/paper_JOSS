@@ -11,9 +11,9 @@ tags:
   - nonconvex
   - singular perturbations
 authors:
-  - name: Andrés A León Baldelli
+  - name: Andres A Leon Baldelli
     corresponding: true
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-3019-602X
     equal-contrib: true
     affiliation: 1 # (Multiple affiliations must be quoted)
   - name: Pierluigi Cesana
