@@ -15,7 +15,7 @@ authors:
     corresponding: true
     orcid: 0000-0000-0000-0000
     equal-contrib: true
-    affiliation: "1" # (Multiple affiliations must be quoted)
+    affiliation: 1 # (Multiple affiliations must be quoted)
   - name: Pierluigi Cesana
     equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
     affiliation: 2
@@ -31,16 +31,15 @@ date: 20 December 2023
 
 # Summary
 
-Title: Understanding Stability in Evolutionary Systems: Navigating Continuity and Discontinuity
+Stability and Bifurcatons in Irreversible Evolutionary Systems
 
 Abstract:
 This article explores the role of stability in various scientific domains, ranging from mechanics to ecology and quantum physics. It delves into the intricate dynamics of evolutionary processes, characterized by both gradual, continuous shifts and occasional abrupt transitions. In examining these phenomena, we challenge the axiom "Natura non facit saltus" (Nature does not make jumps), highlighting the importance of rare transformative events.
 
 # Summary:
-This section introduces the overarching theme of stability in scientific disciplines, emphasizing its significance in comprehending complex systems. The focus is on the nuanced dynamics of evolutionary processes, incorporating both gradual and abrupt changes.
 
-
-
+significance in comprehending complex systems. 
+The focus is on evolutionary processes, incorporating both gradual and abrupt changes.
 
 
 
@@ -184,6 +183,7 @@ full flexibility and configuration of the underlying linear algebra backend (PET
 
 The objects `StabilitySolver, BifurcationSolver`, and `HybridSolver` implementations of 
 the following variational problems:
+
 $$
 P_1(E): \text{Find }y\in X: E'(y)(z)\geq 0, \quad \forall z\in V_t\times K^+ 
 $$
