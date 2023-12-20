@@ -1,4 +1,5 @@
 ---
+
 title: 'Variational Solvers for Irreversile Evolutionary System'
 tags:
   - Python
@@ -24,7 +25,7 @@ affiliations:
  - name: Kyushu University, Fukuoka, Japan
    index: 2
 date: 20 December 2023
-bibliography: paper.bib
+# bibliography: paper.bib
 
 ---
 
