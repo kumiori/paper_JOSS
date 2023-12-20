@@ -24,7 +24,7 @@ affiliations:
  - name: Kyushu University, Fukuoka, Japan
    index: 2
 date: 20 December 2023
-bibliography: biblio.bib
+bibliography: paper.bib
 
 ---
 
@@ -213,6 +213,32 @@ used in a number of scientific publications [@Pearson:2017]. We provide interact
 visualizations of tutorial material [@XXX]. The combination of versatility,______, and ____ for ___ will enable exciting scientific explorations of forthcoming data releases from the *Gaia* mission
 [@gaia] by students and experts alike.
 
+
+## Test case
+
+Problem Overview:
+
+You're simulating a one-dimensional bar under traction.
+The focus is on the stability of the solution at each timestep.
+Solved Problems:
+
+Equilibrium: Solve for the solution that satisfies first-order criticality conditions.
+Bifurcation: Examine the uniqueness of the current evolution.
+Stability: Conclude on the stability of the current state.
+Numerical Methods:
+
+You're solving a variational inequality and two eigen-variational problems as functions of the loading parameter (kinematic parameter) denoted as 
+�
+t.
+Comparison Metrics:
+
+Critical load at which the evolution path admits bifurcations.
+First modes of bifurcation.
+Critical load at which the current solution loses stability.
+First mode of instability.
+Comparison Targets:
+
+You intend to compare these aspects numerically, presumably against analytical or expected values.
 
 
 
