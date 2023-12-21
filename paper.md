@@ -29,23 +29,24 @@ date: 20 December 2023
 
 ---
 
-# Summary
 
-Stability and Bifurcatons in Irreversible Evolutionary Systems
+3,835 words 27,477 characters
 
-Abstract:
-This article explores the role of stability in various scientific domains, ranging from mechanics to ecology and quantum physics. It delves into the intricate dynamics of evolutionary processes, characterized by both gradual, continuous shifts and occasional abrupt transitions. In examining these phenomena, we challenge the axiom "Natura non facit saltus" (Nature does not make jumps), highlighting the importance of rare transformative events.
+# Title
+## Stability and Bifurcatons in Irreversible Evolutionary Systems
 
-# Summary:
+# Abstract/Summary
 
-significance in comprehending complex systems. 
-The focus is on evolutionary processes, incorporating both gradual and abrupt changes.
+Despite the axiom "Natura non facit saltus", complex evolutionary systems show the coexistence of smooth, incremental, and continuous shifts with abrupt, sudden, and brutal transitions.
 
+Fracture processes are a paradigmatic occurrence of both, whereby smooth, controlled, and incremental propagation of fractures is as commonplace as sudden appearence of geometrically complex crack patterns, typically driven by brutal transitions.
 
+We confront the study of irreversible evolutionary processes with a general energetic notion of stability, and dedicate this contribution to releasing three nonlinear variational solvers which address the solution of a system of two inequalities, one representing a (pointwise almost-everywhere) stiff constraint, the other .... a global energy comparison which ultimately plays the role of a selection principle among admissible solutions.
+
+Taking problem from the perspective of an evolution law allows us to fully exploit its variational mathematical structure ...
 
 
 the existence and nature of bifurcations and the stability of the bifurcating solutions are completely determined by variational analysis of the nonlinear .... which arise from the energy/variational methods of ....
-
 
 the main application of ____________ is in the study of evolutionary problems  
 functional analysis of problems of bifurcation...posed in spaces of high or infinite dimension.
@@ -55,10 +56,29 @@ symmetry brealking bifurcations,
 general enough to in principle apply to a large variety of applications that arise in science, technolgu, economy and social sciences
 simple enough so that it can be understood/played with by ... training extends beyond the classical methods 
 
+nonlinear systems can have surprising and complecated behavuours
+
+_______ explores the role of stability in various scientific domains, ranging from mechanics to ecology and quantum physics. 
+
 
 this contribution is concernted with the aplpication of f variational, direct, energy methonds in the calculus of variations to the sutdy of evolutionary systems, based on a notion of stability
 
 the solvers discussed in this contribution can be exgtended or adapted to other evolutionary systems arising from partial differential equations.
+formation of spatial patterns in homogeneous systems, biological morophogenesis, discrete-time and discrete-space nonlinear systems (cellular automata) provide models for processes ranging from the micro (particle phusics) to patterned activity... in evolutionary systems
+
+significant in comprehending evolution dynamics of complex systems. 
+
+
+natural system, physical, chemical, or biological, 
+phenomenolofical novelty
+
+<!-- In examining these phenomena, we challenge the axiom "Natura non facit saltus" (Nature does not make jumps), highlighting the importance of rare transformative events. -->
+
+
+
+
+
+
 
 
 we study localbifurcations of vector fields and maps
@@ -69,12 +89,11 @@ structurally unstable systems,
 
 lack the satisfying completeness of the structural stability theory for second order system
 
-in a n example, we shall focus upon the fundamental proble of a bar in traction
+in an example, we showcase ... focus upon the fundamental proble of a bar in traction
 
-nonlinear systems can have surprising and complecated behavuours
 
-nonlinear phenomena include ..... 
-formation of spatial patterns in homogeneous systems, biological morophogenesis, discrete-time and discrete-space nonlinear systems (cellular automata) provide models for processes ranging from the micro (particle phusics) to patterned activity... in evolutionary systems
+nonlinear phenomena include .....
+
 
 stability not determined by a /the linearised system
 
@@ -83,35 +102,19 @@ nonlinear analyss
 
 the problem of stability is considered under fullfilment of conditions of ... (degeneracuy) eigenvalues of a linearised system become zero
 
-the tools of modern mathematical analuysis allow us to ... and make more transparent the study of stability of critical states.
-transformation of a global inequality into a .... series of problems, 
-reduction theorems, allowing us to extract from each problem its essential part.
+the tools of modern mathematical analuysis allow us to implement a platform of numerical codes to transparently test the stability of ,,, critical states.
 
-the role of constraints
-the peculiarity of our problem
+In practice, falls beyond the scope of this contribution, transformation of a global inequality into a .... series of problems, allowing us to extract from each problem its essential part.
 
-natural system, physical, chemical, or biological, 
-phenomenolofical novelty
+The peculiarity of our problem is the role of constraints, 
 
+full investigation of bifurcations in the neighbourhood of critical can be carried out exhaustively
 
+We work on a rate indepedent system, evolutionary material models, shape memory alloys that are flexible enough to encommas nonlinear and nonconvex phenomena as well as singular phenomena.
 
-
-full investigation of bifurcations in the neighbourhppd of ... can be carried out exhaustively
-
-
-
-We work on
-
-a rate indepedent system, evolutionary material models, shape memory alloys that are flexible enough to encommas nonlinear and nonconvex phenomena as well as singular phenomena.
-
-
-monotone temporal rescaling of the input leads to the crrespondingly rescaled output
+monotone temporal rescaling of the input leads to the corresponding rescaled output
 
 rate indipendence separation of temporal scales
-
-
-
-
 
 analysis of equilibrium stability ... a number of computing issues
 
@@ -120,15 +123,19 @@ our programs are at present available to perform all the necessary calculation
 
 
 
-
-
 -------
 
+"A robust scientific numerical code is required to analyse and predict the stability of irreversibly evolving systems. 
+Based on a simple global-energetic evolutionary models, and mathematical constructs,
+this code offers a flexible toolkit for advanced stability analysis for exploring bifurcations, assessing stability....
 
-Certainly, considering the context of scientific computation for a numerical code that addresses stability problems in the domains of theoretical mechanics, mathematical analysis, and related fields, here is a concise statement of needs:
+Additionally, it should support the development of stable control systems, enable ecological modeling with a focus on resilience, and contribute to the stability considerations in quantum mechanics.
 
-"A robust scientific numerical code is required to analyze and predict the stability of dynamic systems, evolutionary models, and mathematical constructs. This code must offer advanced stability analysis tools for exploring bifurcations, chaos, and nonlinear dynamics. Additionally, it should support the development of stable control systems, enable ecological modeling with a focus on resilience, and contribute to the stability considerations in quantum mechanics. The code should facilitate precise simulations, aiding in the design of stable trajectories for space exploration. Overall, the code must be versatile, efficient, and scalable, meeting the diverse stability analysis needs across scientific disciplines."
+Our code facilitates accurate simulations with versatile, efficient, and scalable solvers, in the effort to meet the diverse needs for stability analysis across scientific disciplines, facilitating interdisciplinary research and understanding of the behaviour of complex systems.
+The open-source nature of the software encourages collaboration, enabling researchers to build upon and extend the code for new scientific investigations.
 
+
+aiding in the design of stable trajectories for space exploration. Overall, the code must be
 
 
 
@@ -140,22 +147,50 @@ Estimating natural frequencies in structural engineering.
 Assessing the stability of orbits for space exploration.
 
 
-facilitating interdisciplinary research and discoveries in complex systems' behavior. 
-The open-source nature of the software encourages collaboration, enabling researchers to build upon and extend the code for new scientific investigations.
+<!-- 
 
 
+we are developing a versatile numerical platform poised to tackle stability analysis across diverse scientific domains. This  platform, founded on a robust mathematical backbone, transcends boundaries, making it applicable to fields from quantum mechanics to ecological modeling. Its openness and adaptability empower researchers, providing them with a flexible and abstract framework for stability analysis. This tool is not only transparent but also accommodates large-scale computations, ensuring accuracy and reliability. Beyond its immediate applications, such as predicting Antarctic ice shelf stability, the platform fosters collaboration through an open-source model. With user-friendly interfaces and advanced stability analysis tools, this project signifies a pivotal shift in our ability to understand and analyze the stability of complex systems, impacting both applied and theoretical research. -->
 
-we are developing a versatile numerical platform poised to revolutionize stability estimation across diverse scientific domains. This innovative platform, founded on a robust mathematical backbone, transcends traditional boundaries, making it applicable to fields from quantum mechanics to ecological modeling. Its openness and adaptability empower researchers, providing them with a unified solution for stability analysis. This tool is not only transparent but also accommodates large-scale computations, ensuring accuracy and reliability. Beyond its immediate applications, such as predicting Antarctic ice shelf stability, the platform fosters collaboration through an open-source model. With user-friendly interfaces and advanced stability analysis tools, this project signifies a pivotal shift in our ability to understand and analyze the stability of complex systems, impacting both applied and theoretical research.
+
+We study evolving systems, singularly perturbed and under constraints. 
 
 
-State of the Art-Scientific Context:
-Current stability analysis tools lack adaptability and transparency, hindering interdisciplinary research. Existing methodologies often address specific domains, leaving a void for a comprehensive platform suitable for ecological modeling, quantum mechanics, and more.
+Fracture, seen as a process, is a phenomenon of natural evolution, offering an instance of a particularly complex natural system showing a wide range of phenomenological diversity, from smooth propagation of controlled isolated cracks to sudden pattern formation and jumps, unknown both in time and space.
+
+From a mechanical perspective the structure of the incremental (quasistatic) evolution problem of fracture is cast in three statements: an irreversibility constraint and an energetic stability criterion (a unilateral condition)
+
+Fully exploiting the stability statement provides a functional criterion of choice and a tool to correctly predict path bifurcations and loss of stability of global structures under time- dependent loads, cf. Figure 1. The problem is reduced to a variational constrained eigenvalue problem involving a nonlinear operator which handles both structural elasticity and an internal dissipative softening (damaging) process identifying fractures. In the perspective of large scale numerical experiments, I shall discuss some remarks on its energetic formulation as a variational problem driven by inequalities, relying on its purely energetic considerations.
+Presenting a numerical FEniCS (dolfinx) implementation for this singular nonlinear evolution problem with several examples of its discrete approximation, I share the motivation and interest that lays at the intersection between mathematical analysis, theoretical mechanics, and advanced numerics, addressing the understanding of general mechanisms of evolution of irreversible systems, to find stable continuation paths.
+
+Quasi-static evolution problems arising in fracture and the associated softening damage models are strongly nonlinear. They can admit multiple solutions, or none.
+it can improve the prediction of standard algorithms for the numerical solution of the evolution problem.
+In addition to classical algorithms used to solve phase-field fracture problems, we explicitly test the second-order optimality conditions for the time-discrete energy minimisation problem by solving a suitable eigenvalue problem on a reduced Hessian matrix.
+We use standard finite element techniques for spatial discretisation,
+but the approach is applicable to other methods.
 
 # Statement of Needs:
+
+The continuous-stability of a multiscale system along its nontrivial paths in phase space is a property that is difficult to check: numerically, at large scales with several material lengths involved, and analytically, in the infinite-dimensional setting.
+Exploiting a connection with an existence theorem [3] stated for compact operators in a convex cone, a rigorous implementation of a general energetic statement for a complex system provides the challenge to deploy a fully transparent numerical experimental platform to address the prediction of large scale fracture events.
+
 
 Addressing stability in evolutionary systems requires understanding the coexistence of smooth evolutions and abrupt transitions. 
 
 Current methods fall short in capturing this dual nature. 
+
+Regularly assess and improve code quality based on established metrics.
+This comprehensive list covers various dimensions of technical requirements, emphasizing the need for performance, usability, reliability, and security in the development of a robust scientific numerical code to enhance accessibility and maintainability:
+
+
+### State of the Art-Scientific Context:
+
+Current numerical tools for the numerical solution of fracture problems ...
+lack a 
+
+Current stability analysis tools ...
+lack adaptability and transparency, hindering interdisciplinary research. Existing methodologies often address specific domains, leaving a void for a comprehensive platform suitable for ecological modeling, quantum mechanics, and more.
+
 
 This contribution offers a problem and its numerical proof (of sufficiency), highlighting the implementation of three numerical solvers that allow to set up a comprehensive numerical platform capable of computing evolutionary trajectories for complex systems and their bifurcation and stability analysis. 
 
@@ -185,15 +220,16 @@ The objects `StabilitySolver, BifurcationSolver`, and `HybridSolver` implementat
 the following variational problems:
 
 $$
-P_1(E): \text{Find }y\in X: E'(y)(z)\geq 0, \quad \forall z\in V_t\times K^+ 
+P_1(E): \text{Find }y\in X: E'(y)(z-y_t)\geq 0, \quad \forall z\in V_t\times K^+ 
 $$
 <!-- % P_2(E): \text{Find }\lambda, w \in \mathbb R\times X: E''(y)(w, z)=\lambda \langle w, z\rangle , \quad \forall z\in V\times K^+  -->
 $$
-P_2(E): \text{Find }\lambda, w \in \mathbb R\times X: E''(y)(w, z)\geq 0, \quad \forall z\in X_t 
+P_2(E): \text{Find }\lambda, w \in \mathbb R\times X: E''(y)(w, z-y_t)\geq 0, \quad \forall z\in X_t 
 $$
 
 $$
-P_2^+(E): \text{Find }\lambda, w \in \mathbb R^+\times X: E''(y)(w, z) = \lambda  \langle w, z\rangle , \quad \forall z\in V_t\times K^+ 
+P_2^+(E): \text{Find }\lambda, w \in \mathbb R^+\times X: E''(y)(w, z-y_t) 
+= \lambda  \langle w, z-y_t\rangle , \quad \forall z\in V_t\times K^+ 
 $$
 
 We use these three solvers to show the existence of a map
@@ -215,39 +251,11 @@ visualizations of tutorial material [@XXX]. The combination of versatility,_____
 [@gaia] by students and experts alike.
 
 
-## Test case
-
-Problem Overview:
-
-You're simulating a one-dimensional bar under traction.
-The focus is on the stability of the solution at each timestep.
-Solved Problems:
-
-Equilibrium: Solve for the solution that satisfies first-order criticality conditions.
-Bifurcation: Examine the uniqueness of the current evolution.
-Stability: Conclude on the stability of the current state.
-Numerical Methods:
-
-You're solving a variational inequality and two eigen-variational problems as functions of the loading parameter (kinematic parameter) denoted as 
-�
-t.
-Comparison Metrics:
-
-Critical load at which the evolution path admits bifurcations.
-First modes of bifurcation.
-Critical load at which the current solution loses stability.
-First mode of instability.
-Comparison Targets:
-
-You intend to compare these aspects numerically, presumably against analytical or expected values.
-
-
 
 # Science:
 
 How to model and understand the competition (for observability) of continuous incremental transitions and rare, discontinuous events?
-Despite the axiom "Natura non facit saltus", fracture processes are a paradigmatic occurrence of both smooth, controlled, incremental _________ as well as commonplace for abrupt transitions, shocks, brutal propagations.
-We take problem from the perspective of an evolution law to fully exploit its mathematical structure. 
+
 It lets you express your problem in a natural way that follows the math, rather than in the restrictive standard form required by solvers.
 
 The numerical implementation and computation of an evolution (P(0), given below). 
@@ -383,96 +391,38 @@ This section provides an overview look at the scientific numerical platform as a
 
 outlining technical requirements for a robust scientific numerical code that supports large-scale computations of natural phenomena, it’s crucial to consider various aspects such as functionality, performance, usability, and maintainability. Below is an itemized list of technical requirements:
 
-**1. Core Functionality, three Nonlinear Solvers:
-Provide efficient solvers for both nonlinear first order (variational inequality) and second order (eigen-variational inequality) problems.
+The core functionality is provided by three Nonlinear Solvers for both nonlinear first order (variational inequality) and second order (eigen-variational inequality) problems.
 
-1.2. Eigenvalue and Eigenvector Analysis:
-We implement a simple algorithm for an efficient computation of constrained eigenvalues and associated eigenvectors, building upon a mathematical property.
+Second order solvers tackle the Eigenvalue and Eigenvector Analysis, for an efficient computation of constrained eigenvalues and associated eigenvectors, 
+building upon a mathematical property.
 
-1.3. Variational Solvers:
-The tree solvers have a common interface,
-to provide flexibility towards supporting a variety of physical/mecahanical models and numerical methods for address evolutionary processes.
-1.4. Bifurcation and Stability Analysis:
+For ease of use and modularity, our Variational Solvers have a common interface,
+which provides flexibility towards supporting a variety of physical/mecahanical/mathematical models and algorithmoc methods to address evolutionary processes.
+
+Our main contribution is related to Bifurcation and Stability Analysis:
 The core of this package are tools for bifurcation and stability analysis in a complex constrained system.
-2.2. Hybrid Acceleration:
-We implement a hybrid 'accelerated' first order solver which transitions from an Alternate Minimisation scheme to a fully nonlinear step for convergence, to enhance computational accuracy for validaiton in real scenarios.
 
-2. Performance:
-The code is conceived for parallel processing, for scalability from rapid prototyping to  high-performance computing clusters.
+At first order, we implement a Hybrid solver which transitions from an Alternate Minimisation scheme to a fully nonlinear step to achieve accelerated convergence, enhancing computational accuracy to machine precision, in view of validaiton in real scenarios.
+The code is conceived for parallel processing, its modularity allows for scalability from rapid prototyping to high-performance computing clusters.
 
-3. Usability:
-3.1. User Interface:
+A user-friendly interface facilitates setup of simulations, parametric batch computations, flexible configuration of numerical as well as material parameters, and is equipped of a minimal library of utility functions for visualisation (based on PyVista) and post-processing of results  (based on Pandas/numpy).
 
-Develop a user-friendly interface for setting up simulations, configuring parameters, and visualizing results.
-3.2. Documentation:
-Provide comprehensive documentation, including tutorials and examples, to facilitate user understanding and adoption.
+Our code is accompanied with essential documentation, including tutorials and examples to facilitate user understanding and adoption.
+
 3.3. Interoperability:
-
 Support interoperability with common data formats and integration with popular scientific computing libraries.
-3.4. Scripting Support:
 
-Allow scripting capabilities for automation and customization of simulations.
-4. Mathematical Foundation:
-4.1. Numerical Stability:
+Numerical performance can be fine-tuned with accuracy via a comprehensive parameters file attached to each computation, allowing users to control precision and balance accuracy with computational cost.
+We implement robust error handling and log/reporting mechanisms, alongside a minimal set of unit tests to validate the correctness of our core algorithms, both at first and second order.
+The modular class-based architecture of the software allows for easy extension of functionalities, comparative tests, and parametric exploration.
+We implement continuous integration for sanity-check, automated testing, and deployment.
 
-Ensure numerical stability in computations to prevent accumulation of errors over time.
-
-
-4.2. Precision Control:
-Numerical performance can be fine-tuned with accuracy through a comprehensive file of numerical parameters. 
-Allow users to control precision settings to balance accuracy with computational cost.
-
-5. Robustness and Reliability:
-5.1. Error Handling:
-
-We Implement robust error handling and log/reporting mechanisms.
-5.2. Unit Testing:
-Develop a minimal set of unit tests to validate the correctness of core algorithms, both at first and second order.
-
-5.3. Version Control:
-Utilize version control systems to manage codebase changes and updates.
-
-6. Extensibility:
-The modular class-based architecture allows for easy extension of functionality, comparative tests, and parametric exploration.
-
-6.2. Plugin Support:
-Provide support for plugins to encourage community contributions and custom extensions.
-7. Support and Maintenance:
-7.1. Continuous Integration:
-
-Implement continuous integration for automated testing and deployment.
-7.2. Community Forums:
-
-Establish community forums or channels for user support and collaboration.
-
-7.3. Long-Term Support:
-
-We commit to long-term support of this numerical code, including regular bug fixes, extensions, and updates, to ensure the code's reliability over time.
-
-8. Security:
-8.1. Data Encryption:
-
-We MAY OR MAY NOT implement data encryption mechanisms to protect sensitive information = configuration/parameter files.
-
-
-9. Visualization:
-9.1. 3D Visualization:
-Currently, code lacks of appropriate tools for advanced visualisation, such as 
-Support 3D visualization tools for exploring and interpreting simulation results, and  real-time Plotting,
-intresting to 
-Provide real-time plotting capabilities during simulations for on-the-fly analysis.
-
-
-10. Compliance:
-10.1. Standard Compliance:
+Committing to long-term support of this numerical code, including regular bug fixes, extensions, and updates, to ensure the code's reliability over time, we establish a community forum and channels for user support and collaboration.
+Currently, code lacks of appropriate tools for advanced visualisation, such as 3D visualization tools for exploring and interpreting simulation results, and real-time parallel plotting, 
 
 Ensure compliance with relevant industry standards for numerical computing.
 10.2. Code Quality Metrics:
 
-Regularly assess and improve code quality based on established metrics.
-This comprehensive list covers various dimensions of technical requirements, emphasizing the need for performance, usability, reliability, and security in the development of a robust scientific numerical code.
-
- to enhance accessibility and maintainability:
 
 
 
@@ -491,7 +441,7 @@ link of fenics on colab with some tests
 directory structure
 
 ```
-➜  mec647-CODENAME: git:(release) ✗ ls -1
+➜  mec647-CODENAME: git:(release) ls -1
 LICENSE
     free software ;)
 README.md
@@ -542,44 +492,34 @@ Also, is it "possible to know whether the bifurcation will really arise, because
 
 
 ### Verification experiment in 1d
+Problem Overview:
+
+You're simulating a one-dimensional bar under traction.
+The focus is on the stability of the solution at each timestep.
+Solved Problems:
+
+Equilibrium: Solve for the solution that satisfies first-order criticality conditions.
+Bifurcation: Examine the uniqueness of the current evolution.
+Stability: Conclude on the stability of the current state.
+Numerical Methods:
+
+You're solving a variational inequality and two eigen-variational problems as functions of the loading parameter (kinematic parameter) denoted as 
+�
+t.
+Comparison Metrics:
+
+Critical load at which the evolution path admits bifurcations.
+First modes of bifurcation.
+Critical load at which the current solution loses stability.
+First mode of instability.
+Comparison Targets:
+
+You intend to compare these aspects numerically, presumably against analytical or expected values.
+
 
 
 ![Caption for example figure.\label{fig:example}](BJ9DtChSp.png)
 
----------------
-
-The forces on stars, galaxies, and dark matter under external gravitational
-fields lead to the dynamical evolution of structures in the universe. The orbits
-of these bodies are therefore key to understanding the formation, history, and
-future state of galaxies. The field of "galactic dynamics," which aims to model
-the gravitating components of galaxies to study their structure and evolution,
-is now well-established, commonly taught, and frequently used in astronomy.
-Aside from toy problems and demonstrations, the majority of problems require
-efficient numerical tools, many of which require the same base code (e.g., for
-performing numerical orbit integration).
-
-# Statement of need
-
-# Mathematics
-
-Single dollars ($) are required for inline mathematics e.g. $f(x) = e^{\pi/x}$
-
-Double dollars make self-standing equations:
-
-$\forall \varepsilon>0$ ..., $\exists y_\varepsilon$ an $\varepsilon$-approximate-viscous-evolution with $y_\varepsilon(0)=y_0$ (initial condition), i.e. there exists a constant $C > 0$ such that 
-
-$$
-E(y)\leq E(z)
-$$
-
-$$
-\int_0^T \{ ||\dot \alpha_\varepsilon(t)||_{\color{red}{H^1}}+||\dot u_\varepsilon(t)||_{\color{red}{H^{1}}} \}\leq C
-$$.
-
-You can also use plain \LaTeX for equations
-
-
-and refer to \autoref{eq:fourier} from text.
 
 # Citations
 
@@ -609,7 +549,8 @@ Figure sizes can be customized by adding an optional second parameter:
 
 # Acknowledgements
 
-We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
+We acknowledge contributions .........
+
+.
 
 # References
